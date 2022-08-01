@@ -33,9 +33,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-zzr#b*wd(uau)o%+t!4u=luncg(s=9+bg&vfoq-mui-%nom6x7'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['cryptic-wildwood-60175.herokuapp.com']
 
 
 # Application definition
